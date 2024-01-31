@@ -40,7 +40,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
         new_particle.weight = 1;
 
         // push particle onto particles list
-        particles.push_back(new_particle);
+        particles.push_back(new_particle); 
     }
 }
 
@@ -57,7 +57,7 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 
     for (int i = 0; i < num_particles; i++) {
 
-        // calculate new state
+        // calculate new state (Note: conditional division by zero)
         if (fabs(yaw_rate) < 0.00001) {
             particles[i].x += velocity * delta_t * cos(particles[i].theta);
             particles[i].y += velocity * delta_t * sin(particles[i].theta);
@@ -114,9 +114,9 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 
 void ParticleFilter::updateWeights(double sensor_range, double std_landmark[], 
 		const std::vector<LandmarkObs> &observations, const Map &map_landmarks) {
-	// TODO: Update the weights of each particle using a mult-variate Gaussian distribution. You can read
-	//   more about this distribution here: https://en.wikipedia.org/wiki/Multivariate_normal_distribution
-	// NOTE: The observations are given in the VEHICLE'S coordinate system. Your particles are located
+	//  Update the weights of each particle using a mult-variate Gaussian distribution. You can read
+	//  more about this distribution here: https://en.wikipedia.org/wiki/Multivariate_normal_distribution
+	//  NOTE: The observations are given in the VEHICLE'S coordinate system. Your particles are located
 	//   according to the MAP'S coordinate system. You will need to transform between the two systems.
 	//   Keep in mind that this transformation requires both rotation AND translation (but no scaling).
 	//   The following is a good resource for the theory:
