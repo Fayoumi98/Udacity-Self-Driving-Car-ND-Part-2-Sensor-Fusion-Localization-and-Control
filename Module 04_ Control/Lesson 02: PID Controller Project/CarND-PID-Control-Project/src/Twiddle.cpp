@@ -1,5 +1,4 @@
 #include "Twiddle.h"
-
 #include <iostream>
 #include <math.h>
 

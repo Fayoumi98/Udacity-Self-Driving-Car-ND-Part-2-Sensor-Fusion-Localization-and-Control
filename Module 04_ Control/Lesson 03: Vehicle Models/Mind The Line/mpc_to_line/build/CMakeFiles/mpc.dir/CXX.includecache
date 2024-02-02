@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/MPC.cpp
+MPC.h
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/MPC.h
+math.h
+-
+cppad/cppad.hpp
+-
+cppad/ipopt/solve.hpp
+-
+vector
+-
+eigen3/Eigen/Core
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/eigen3/Eigen/Core
+
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/MPC.h
+vector
+-
+eigen3/Eigen/Core
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/eigen3/Eigen/Core
+
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/helpers.h
+eigen3/Eigen/Core
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/eigen3/Eigen/Core
+
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/main.cpp
+vector
+-
+eigen3/Eigen/QR
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/eigen3/Eigen/QR
+helpers.h
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/helpers.h
+matplotlibcpp.h
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/matplotlibcpp.h
+MPC.h
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/MPC.h
+
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/src/matplotlibcpp.h
+vector
+-
+map
+-
+numeric
+-
+stdexcept
+-
+iostream
+-
+functional
+-
+python2.7/Python.h
+-
+

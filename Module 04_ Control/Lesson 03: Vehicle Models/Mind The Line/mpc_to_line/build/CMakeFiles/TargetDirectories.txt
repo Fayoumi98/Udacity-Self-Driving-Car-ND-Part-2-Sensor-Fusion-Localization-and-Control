@@ -1,0 +1,3 @@
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/build/CMakeFiles/rebuild_cache.dir
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/build/CMakeFiles/edit_cache.dir
+/home/fayo/Udacity - Self Driving Car Nanodegree/Part 2 _ Sensor Fusion, Localization, and Control/Module 04_ Control/Lesson 03: Vehicle Models/Mind The Line/mpc_to_line/build/CMakeFiles/mpc.dir
